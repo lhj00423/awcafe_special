@@ -1,0 +1,55 @@
+#Coffee{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+}
+#Coffee > h2{
+    padding: 30px 0;
+}
+#select{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#selecttitle{
+    padding: 30px 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+#check{
+    padding: 30px 20px 20px;
+    display: flex;
+}
+#check button{
+    display: block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #f4f4f1;
+    color: #222;
+    font-size: 14px;
+    text-align: center;   
+}
+#check button:nth-child(1){
+    margin-right: 10px;
+}
+#select ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+#select ul li{
+    font-size: 14px;
+    color: #444;
+    float: left;
+    margin-right: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+#select ul li label{
+    line-height: 14px;
+    padding-left: 20px;
+}
